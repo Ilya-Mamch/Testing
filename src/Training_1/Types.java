@@ -17,7 +17,6 @@ public class Types {
         letter=77;
         String name="Ilya";
         String city="Minsk";
-
         System.out.println("Hello! My name is " + name);
         System.out.println("I am from the city of " + city);
         System.out.println("I am " + age + " years old");
