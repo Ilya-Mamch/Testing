@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class MyHomeWorkFour {
     public static void main(String[] args) {
-        taskNumberFour();
+        taskNumberOne();
     }
 
+    // Задание номер 1
     public static void taskNumberOne() {
         int[] num = new int[]{1, 7, 77, 21, 99};
         System.out.print("Введите число, которое желаете найти: ");
@@ -22,6 +23,7 @@ public class MyHomeWorkFour {
         System.out.println("Число " + numFromArray + " не входит в массив");
     }
 
+    // Задание номер 2
     public static void taskNumberTwo(){
         int[] array = new int[] {1, 3, 77, 4, 22, 66};
         System.out.print("Введите число необходимое для удаления: ");
@@ -59,6 +61,7 @@ public class MyHomeWorkFour {
 
     }
 
+    // Задание номер 3
     public static void taskNumberThree(){
 
         int minRandom = 1;
@@ -107,6 +110,7 @@ public class MyHomeWorkFour {
 
     }
 
+    // Задание номер 4
     public static void taskNumberFour(){
         int[] arrayOne = new int[]{5, 4, 6, 7, 10};
         int[] arrayTwo = new int[5];
