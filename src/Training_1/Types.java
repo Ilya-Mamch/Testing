@@ -2,9 +2,6 @@ package Training_1;
 
 public class Types {
     public static void main(String[] args){
-        indicateSomething();
-
-
 
     }
 
@@ -27,7 +24,7 @@ public class Types {
 
     }
 
-   public static void indicateSomething(){
+    public static void indicateSomething(){
         String myCat="Mars";
         int ageCate=1+2;
         byte numberOne=(byte) ageCate;
@@ -35,4 +32,9 @@ public class Types {
         System.out.println("He is " + numberOne + " years old");
    }
 
-}
+
+
+
+    }
+
+
